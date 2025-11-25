@@ -66,7 +66,7 @@ export default function HeroText() {
 
         <div className="flex flex-col xl:flex-row items-center gap-8">
           <a
-            href="/cv.pdf"
+            href="/doc/cv.pdf"
             download
             aria-label={t("HeroText.ariaDownload")}
             className="uppercase flex items-center gap-2 px-5 py-3 border border-white rounded-full cursor-pointer hover:bg-white hover:text-primary transition-colors duration-300"

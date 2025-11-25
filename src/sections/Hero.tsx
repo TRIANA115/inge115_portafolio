@@ -7,7 +7,6 @@ import { useMediaQuery } from "react-responsive";
 import HeroText from "@/components/HeroText";
 import Loader from "@/components/Loader";
 import ParallaxBackground from "@/components/ParallaxBackground";
-import Stats from "@/components/Stats";
 import Astronaut from "@/components/three/models/Astronaut";
 
 export default function Hero() {
@@ -42,9 +41,6 @@ export default function Hero() {
         </Canvas>
       </figure>
 
-      <div className="pointer-events-none absolute inset-x-0 bottom-4 z-30 px-4 pb-[env(safe-area-inset-bottom)]">
-        <Stats />
-      </div>
     </section>
   );
 }

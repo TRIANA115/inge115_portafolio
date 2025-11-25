@@ -10,7 +10,7 @@ type SocialItem = {
 const socials: SocialItem[] = [
   {
     icon: <FaGithub />,
-    path: "https://github.com/DarkCode21",
+    path: "https://github.com/TRIANA115",
     label: "GitHub",
   },
   {
