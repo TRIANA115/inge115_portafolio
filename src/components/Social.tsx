@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import { FaGithub, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTiktok, FaYoutube } from "react-icons/fa";
 
 type SocialItem = {
   icon: ReactElement;
@@ -15,17 +15,17 @@ const socials: SocialItem[] = [
   },
   {
     icon: <FaLinkedinIn />,
-    path: "https://www.linkedin.com/in/deyvi-villegas/",
+    path: "https://www.linkedin.com/in/triana-garces",
     label: "LinkedIn",
   },
   {
-    icon: <FaInstagram />,
-    path: "https://www.instagram.com/deyvi_v_/",
-    label: "Instagram",
+    icon: <FaTiktok />,
+    path: "https://www.tiktok.com/@triana_technology",
+    label: "TikTok",
   },
   {
     icon: <FaYoutube />,
-    path: "https://www.youtube.com/@deyvillegas",
+    path: "https://www.youtube.com/@triana_technology",
     label: "YouTube",
   },
 ];
