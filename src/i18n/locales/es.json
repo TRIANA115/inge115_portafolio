@@ -1,0 +1,267 @@
+{
+  "HomePage": { "title": "¡Hola mundo!" },
+  "Meta": {
+    "title": "Portfolio 3D",
+    "description": "Next 15 + R3F + Framer + Tailwind"
+  },
+  "Navbar": {
+    "brand": "DarkCode",
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "work": "Proyectos",
+    "experiences": "Experiencia",
+    "contact": "Contacto",
+    "toggleMenu": "Abrir/cerrar menú",
+    "lang_es": "ES",
+    "lang_en": "EN"
+  },
+  "HeroText": {
+    "title": "Hola, Soy Dark",
+    "headingTop": "Un Desarrollador",
+    "headingBottom1": "Full-Stack Creando",
+    "headingTopMobile": "Construyendo",
+    "headingBottomMobile": "Aplicaciones Web",
+    "words": ["Seguras", "Modernas", "Escalables"],
+    "headingBottom2": "Aplicaciones Web",
+    "pitch": "Me gusta convertir ideas en productos digitales que marquen la diferencia. Uniendo tecnología y diseño, creo experiencias web que inspiran confianza y generan impacto.",
+    "download": "Descargar CV",
+    "ariaDownload": "Descargar currículum en PDF"
+  },
+  "Stats": {
+    "exp": "Años de experiencia",
+    "projects": "Proyectos completados",
+    "tech": "Tecnologías dominadas",
+    "commits": "Commits completados"
+  },
+  "About": {
+    "title": "Sobre mí",
+    "grid1_head": "Hola, Soy Dark",
+    "grid1_sub": "Durante los últimos 3 años he perfeccionado mis habilidades en frontend y backend para crear aplicaciones web dinámicas y funcionales.",
+    "grid2_main": "EL CÓDIGO ES ARTE",
+    "grid2_cards": {
+      "grasp": "GRASP",
+      "solid": "SOLID",
+      "patterns": "Patrones de diseño",
+      "principles": "Principios de diseño",
+      "srp": "SRP"
+    },
+    "grid3_head": "Zona horaria",
+    "grid3_sub": "Flexible para colaborar de manera remota con equipos de todo el mundo.",
+    "grid4_cta": "¿Quieres que colaboremos en tu próximo proyecto?",
+    "grid5_head": "Stack tecnológico",
+    "grid5_sub": "Trabajo con múltiples lenguajes, frameworks y herramientas que me permiten crear aplicaciones escalables y confiables."
+  },
+  "CopyEmailButton": {
+    "copy": "Copiar correo electrónico",
+    "copied": "Correo copiado",
+    "iconAlt": "Icono de copiar"
+  },
+  "Tags": {
+    "csharp": "C#",
+    "dotnet": ".NET",
+    "efcore": "EF Core",
+    "tailwind": "TailwindCSS",
+    "auth0": "Auth0",
+    "react": "React",
+    "sqlite": "SQLite",
+    "blazor": "Blazor",
+    "dotnetcore": ".NET Core",
+    "cplusplus": "C++",
+    "git": "Git",
+    "microsoft": "Microsoft",
+    "wordpress": "WordPress",
+    "html5": "HTML5",
+    "css3": "CSS3",
+    "vite": "Vite.js",
+    "azure": "Azure",
+    "stripe": "Stripe"
+  },
+  "Projects": {
+    "title": "Mis proyectos seleccionados",
+    "aria_label": "Sección de proyectos seleccionados",
+    "preview_alt": "Vista previa del proyecto",
+    "items": {
+      "ecommerce-platform": {
+        "title": "Plataforma E-commerce",
+        "description": "Desarrollé una plataforma e-commerce de alto rendimiento con un enfoque en velocidad, escalabilidad y experiencia de usuario fluida.",
+        "subDescription": [
+          "Construí el backend utilizando Laravel 11 con Laravel Octane para optimizar la concurrencia y el rendimiento del servidor.",
+          "Implementé el frontend en Next.js 15, logrando una interfaz moderna, rápida y responsiva.",
+          "Desplegué todo el sistema en contenedores Docker con Nginx como servidor web, asegurando portabilidad y escalabilidad.",
+          "Integré el sistema de pagos mediante la API Checkout de Mercado Pago, garantizando transacciones seguras y confiables."
+        ]
+      },
+      "social-network": {
+        "title": "Red Social con Chat en Tiempo Real",
+        "description": "Desarrollé una red social interactiva con funcionalidades completas y comunicación en tiempo real entre usuarios.",
+        "subDescription": [
+          "Implementé un sistema de publicaciones con likes, comentarios, guardados y seguimiento de usuarios.",
+          "Diseñé comunidades donde los usuarios pueden compartir contenido y participar en conversaciones.",
+          "Integré la API de GetStream para ofrecer chat en tiempo real con mensajería privada y creación de grupos.",
+          "Permití el envío de contenido multimedia en los chats, mejorando la experiencia de comunicación."
+        ]
+      },
+      "appointments-system": {
+        "title": "Sistema Web de Reservación de Citas Médicas",
+        "description": "Desarrollé un sistema integral para la gestión y reserva de citas médicas, optimizando la atención y los procesos administrativos.",
+        "subDescription": [
+          "Permite a los pacientes reservar citas médicas en línea o presenciales de forma rápida y segura.",
+          "Facilita al personal médico y administrativo la gestión eficiente de horarios, pacientes y disponibilidad.",
+          "Implementé un sistema de recomendación basado en inteligencia artificial que sugiere médicos según el problema del paciente.",
+          "Mejoré la experiencia del usuario mediante una interfaz intuitiva y flujos automatizados que reducen tiempos de atención."
+        ]
+      },
+      "emotion-recognition-system": {
+        "title": "Sistema de Reconocimiento Facial de Emociones",
+        "description": "Desarrollé un sistema basado en visión por computadora para el reconocimiento de emociones en niños con habilidades especiales, promoviendo la comprensión y gestión emocional.",
+        "subDescription": [
+          "Utilicé algoritmos de visión por computadora y aprendizaje automático para detectar y reconocer expresiones faciales en tiempo real.",
+          "Proporcioné retroalimentación visual e interactiva para ayudar a los niños a identificar y comprender sus emociones.",
+          "Optimicé el sistema para funcionar de manera precisa incluso en entornos con iluminación variable.",
+          "Contribuí al desarrollo de herramientas tecnológicas inclusivas enfocadas en el aprendizaje emocional asistido."
+        ]
+      },
+      "cyberpunk-hacker-game": {
+        "title": "Cyberpunk Hacker Game – Gemini",
+        "description": "Desarrollé un juego interactivo basado en inteligencia artificial que genera historias, escenas y decisiones en un entorno cyberpunk-apocalíptico.",
+        "subDescription": [
+          "Implementé el frontend del juego utilizando tecnologías modernas para ofrecer una experiencia inmersiva e intuitiva.",
+          "Integré Gemini para generar dinámicamente la historia, diálogos e imágenes según las decisiones del jugador.",
+          "El juego inicia automáticamente con una escena del apocalipsis zombi y evoluciona en función de las acciones del usuario.",
+          "Cada decisión afecta la narrativa, los eventos y las posibilidades de supervivencia dentro del mundo generado."
+        ]
+      },
+      "software-agency-website": {
+        "title": "Sitio Web Profesional para Agencia de Software",
+        "description": "Diseñé y desarrollé un sitio web corporativo en WordPress optimizado para rendimiento, posicionamiento SEO y experiencia de usuario.",
+        "subDescription": [
+          "Construí un sitio totalmente administrable en WordPress, adaptado a las necesidades de una agencia de software.",
+          "Optimicé el rendimiento y las métricas de PageSpeed, alcanzando puntuaciones sobresalientes en velocidad y usabilidad.",
+          "Implementé buenas prácticas de SEO técnico y estructural para mejorar la visibilidad en motores de búsqueda.",
+          "Apliqué un diseño profesional, moderno y responsive, garantizando una excelente experiencia en cualquier dispositivo."
+        ]
+      }
+    }
+  },
+  "Project": {
+    "readMore": "Leer más",
+    "openAlt": "Abrir detalles del proyecto"
+  },
+  "ProjectDetails": {
+    "overlayClose": "Cerrar diálogo",
+    "close": "Cerrar",
+    "viewProject": "Ver proyecto"
+  },
+  "Experiences": {
+    "title": "Mi experiencia laboral",
+    "aria_label": "Sección de experiencia laboral",
+    "items": {
+      "tsoluciona": {
+        "title": "Desarrollador Web",
+        "job": "T-SOLUCIONA, La Libertad - Perú",
+        "date": "Abril 2024 — Agosto 2024",
+        "contents": [
+          "Desarrollé e implementé un sistema web integral de gestión de inventarios y valijas para optimizar el control de stock y la documentación entre sedes y proveedores.",
+          "Automatizé procesos clave como el seguimiento de inventarios y la gestión documental, reduciendo significativamente errores humanos y tiempos de respuesta.",
+          "Logré una mejora del 50% en la eficiencia operativa mediante la digitalización de procesos críticos.",
+          "Diseñé la arquitectura del sistema con escalabilidad en mente, permitiendo su adaptación a futuras necesidades de la empresa."
+        ]
+      },
+      "interiberica": {
+        "title": "Desarrollador Web",
+        "job": "INTERIBERICA, Almería - España",
+        "date": "Agosto 2024 — Septiembre 2025",
+        "contents": [
+          "Desarrollé y optimicé sistemas web existentes, incorporando nuevas funcionalidades y mejorando el rendimiento general.",
+          "Trabajé con plataformas de eCommerce como OpenCart y PrestaShop, desarrollando e integrando plugins personalizados.",
+          "Desarrollé proyectos en WordPress para sitios corporativos y tiendas online, asegurando escalabilidad y mantenibilidad.",
+          "Implementé y consumí APIs REST propias y de terceros, incluyendo integraciones con OpenAI y otros servicios externos para ampliar funcionalidades y automatizar procesos.",
+          "Diseñé e implementé interfaces responsivas adaptadas a distintos dispositivos, incrementando la satisfacción del usuario y reduciendo los tiempos de carga en un 40%."
+        ]
+      },
+      "freelance": {
+        "title": "Desarrollador Full Stack Freelance",
+        "job": "Independiente",
+        "date": "2025 — Presente",
+        "contents": [
+          "Desarrollo aplicaciones web full stack, trabajando tanto en el frontend como en el backend con tecnologías modernas como React, Next.js, Laravel y Node.js.",
+          "He creado un portafolio personal y proyectos escalables que integran APIs externas y bases de datos SQL/NoSQL, fortaleciendo mis habilidades en soluciones de alto rendimiento."
+        ]
+      }
+    }
+  },
+
+  "Testimonial": {
+    "title": "Lo que dicen mis clientes",
+    "aria_label": "Sección de testimonios",
+    "avatarAlt": "Avatar de {name}",
+    "items": {
+      "jack": {
+        "name": "Jack",
+        "username": "@jack",
+        "body": "Nunca había visto algo así antes. Es increíble. Me encanta."
+      },
+      "jill": {
+        "name": "Jill",
+        "username": "@jill",
+        "body": "No sé qué decir. Me he quedado sin palabras. Es asombroso."
+      },
+      "john": {
+        "name": "John",
+        "username": "@john",
+        "body": "No tengo palabras. Esto es increíble. Me encanta."
+      },
+      "alice": {
+        "name": "Alice",
+        "username": "@alice",
+        "body": "Sin duda, la mejor experiencia que he tenido. ¡Lo recomiendo totalmente!"
+      },
+      "bob": {
+        "name": "Bob",
+        "username": "@bob",
+        "body": "¡Trabajo increíble! La atención al detalle es fenomenal."
+      },
+      "charlie": {
+        "name": "Charlie",
+        "username": "@charlie",
+        "body": "Superó todas mis expectativas. ¡Absolutamente impresionante!"
+      },
+      "dave": {
+        "name": "Dave",
+        "username": "@dave",
+        "body": "Simplemente impresionante. La mejor decisión que he tomado en mucho tiempo."
+      },
+      "eve": {
+        "name": "Eve",
+        "username": "@eve",
+        "body": "Me alegra mucho haber encontrado esto. Ha cambiado las reglas del juego para mí."
+      }
+    }
+  },
+  "Contact": {
+    "aria_label": "Sección de contacto",
+    "title": "Hablemos",
+    "intro": "¿Buscas crear una web, mejorar tu plataforma actual o lanzar un proyecto único? Estoy aquí para ayudarte.",
+    "fields": {
+      "name": { "label": "Nombre completo", "placeholder": "Juan Pérez" },
+      "email": {
+        "label": "Correo electrónico",
+        "placeholder": "juan@ejemplo.com"
+      },
+      "message": { "label": "Mensaje", "placeholder": "Cuéntame tu idea..." }
+    },
+    "cta": { "send": "Enviar", "sending": "Enviando..." },
+    "alerts": {
+      "success": "¡Tu mensaje ha sido enviado!",
+      "genericError": "Algo salió mal. Inténtalo de nuevo más tarde."
+    },
+    "errors": {
+      "notConfigured": "Servicio de email no configurado. Define las variables NEXT_PUBLIC_EMAILJS_*."
+    }
+  },
+  "Footer": {
+    "terms": "Términos y Condiciones",
+    "privacy": "Política de Privacidad",
+    "copyright": "© {year} {brand}. Todos los derechos reservados."
+  }
+}

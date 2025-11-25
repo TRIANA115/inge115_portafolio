@@ -1,0 +1,258 @@
+{
+  "HomePage": {
+    "title": "Hello world!"
+  },
+  "Meta": {
+    "title": "3D Portfolio",
+    "description": "Next 15 + R3F + Framer + Tailwind"
+  },
+  "Navbar": {
+    "brand": "DarkCode",
+    "home": "Home",
+    "about": "About",
+    "work": "Work",
+    "experiences": "Experiences",
+    "contact": "Contact",
+    "toggleMenu": "Toggle menu",
+    "lang_es": "ES",
+    "lang_en": "EN"
+  },
+  "HeroText": {
+    "title": "Hi I'm Dark",
+    "headingTop": "A Full-Stack",
+    "headingBottom1": "Developer creating",
+    "headingTopMobile": "Building",
+    "headingBottomMobile": "Web Applications",
+    "words": ["Secure", "Modern", "Scalable"],
+    "headingBottom2": "Web Applications",
+    "pitch": "I enjoy turning ideas into digital products that make a difference. By combining technology and design, I create web experiences that inspire trust and generate impact.",
+    "download": "Download CV",
+    "ariaDownload": "Download résumé as PDF"
+  },
+  "Stats": {
+    "exp": "Years of experience",
+    "projects": "Projects completed",
+    "tech": "Technologies mastered",
+    "commits": "Commits completed"
+  },
+  "About": {
+    "title": "About Me",
+    "grid1_head": "Hi, I'm Dark",
+    "grid1_sub": "Over the last 3 years, I have sharpened my frontend and backend skills to deliver dynamic and reliable web applications.",
+    "grid2_main": "CODE IS CRAFT",
+    "grid2_cards": {
+      "grasp": "GRASP",
+      "solid": "SOLID",
+      "patterns": "Design Patterns",
+      "principles": "Design Principles",
+      "srp": "SRP"
+    },
+    "grid3_head": "Time Zone",
+    "grid3_sub": "Flexible to collaborate remotely with teams worldwide.",
+    "grid4_cta": "Do you want to start a project together?",
+    "grid5_head": "Tech Stack",
+    "grid5_sub": "I specialize in multiple languages, frameworks, and tools that let me build scalable and robust applications."
+  },
+  "CopyEmailButton": {
+    "copy": "Copy Email Address",
+    "copied": "Email has Copied",
+    "iconAlt": "Copy icon"
+  },
+  "Projects": {
+    "title": "My Selected Projects",
+    "aria_label": "Selected projects section",
+    "preview_alt": "Project preview",
+    "items": {
+      "ecommerce-platform": {
+        "title": "E-commerce Platform",
+        "description": "I built a high-performance e-commerce platform focused on speed, scalability, and a smooth user experience.",
+        "subDescription": [
+          "I built the backend using Laravel 11 with Laravel Octane to optimize concurrency and server performance.",
+          "I implemented the frontend in Next.js 15, achieving a modern, fast, and responsive interface.",
+          "I deployed the whole system in Docker containers with Nginx as the web server, ensuring portability and scalability.",
+          "I integrated payments through the Mercado Pago Checkout API, guaranteeing secure and reliable transactions."
+        ]
+      },
+      "social-network": {
+        "title": "Social Network with Real-Time Chat",
+        "description": "I developed an interactive social network with full features and real-time communication between users.",
+        "subDescription": [
+          "I implemented a post system with likes, comments, saves, and user following.",
+          "I designed communities where users can share content and join conversations.",
+          "I integrated the GetStream API to provide real-time chat with private messaging and group creation.",
+          "I enabled sending multimedia content in chats to enhance the communication experience."
+        ]
+      },
+      "appointments-system": {
+        "title": "Medical Appointment Booking System",
+        "description": "I developed a comprehensive system for managing and booking medical appointments, streamlining patient care and admin processes.",
+        "subDescription": [
+          "Allows patients to quickly and securely book online or in-person medical appointments.",
+          "Helps medical and admin staff efficiently manage schedules, patients, and availability.",
+          "I implemented an AI-based recommendation system that suggests doctors based on the patient's issue.",
+          "I improved the user experience with an intuitive interface and automated flows that reduce waiting times."
+        ]
+      },
+      "emotion-recognition-system": {
+        "title": "Emotion Recognition System with Computer Vision",
+        "description": "I developed a computer-vision-based system to recognize emotions in children with special needs, supporting emotional learning and regulation.",
+        "subDescription": [
+          "I used computer-vision and machine-learning algorithms to detect and recognize facial expressions in real time.",
+          "I provided interactive visual feedback to help children identify and understand their emotions.",
+          "I optimized the system to work accurately even in environments with varying lighting conditions.",
+          "I contributed to inclusive technology tools focused on assisted emotional learning."
+        ]
+      },
+      "cyberpunk-hacker-game": {
+        "title": "Cyberpunk Hacker Game – Gemini",
+        "description": "I built an interactive AI-driven game that generates stories, scenes, and choices in a cyberpunk apocalyptic world.",
+        "subDescription": [
+          "I implemented the frontend using modern technologies to offer an immersive and intuitive experience.",
+          "I integrated Gemini to dynamically generate the story, dialogues, and images based on the player's decisions.",
+          "The game starts automatically with a zombie apocalypse scene and evolves based on user actions.",
+          "Each decision affects the narrative, events, and the chances of survival within the generated world."
+        ]
+      },
+      "software-agency-website": {
+        "title": "Professional Website for a Software Agency",
+        "description": "I designed and developed a corporate WordPress site optimized for performance, SEO, and user experience.",
+        "subDescription": [
+          "I built a fully manageable WordPress site tailored to the needs of a software agency.",
+          "I optimized performance and PageSpeed metrics, achieving outstanding scores in speed and usability.",
+          "I implemented solid technical and structural SEO practices to improve search visibility.",
+          "I applied a professional, modern, and responsive design to ensure a great experience on any device."
+        ]
+      }
+    }
+  },
+  "Project": {
+    "readMore": "Read More",
+    "openAlt": "Open project details"
+  },
+  "ProjectDetails": {
+    "overlayClose": "Close dialog",
+    "close": "Close",
+    "viewProject": "View Project"
+  },
+  "Experiences": {
+    "title": "My Work Experience",
+    "aria_label": "Work experience section",
+    "items": {
+      "tsoluciona": {
+        "title": "Web Developer",
+        "job": "T-SOLUCIONA, La Libertad - Peru",
+        "date": "April 2024 — August 2024",
+        "contents": [
+          "I developed and implemented a comprehensive web-based inventory and baggage management system to optimize stock control and documentation between branches and suppliers.",
+          "I automated key processes such as inventory tracking and document management, significantly reducing human error and response times.",
+          "I achieved a 50% improvement in operational efficiency by digitizing critical processes.",
+          "I designed the system architecture with scalability in mind, allowing it to adapt to the company's future needs."
+        ]
+      },
+      "interiberica": {
+        "title": "Web Developer",
+        "job": "INTERIBERICA, Almería - Spain",
+        "date": "August 2024 — September 2025",
+        "contents": [
+          "I developed and optimized existing web systems, incorporating new functionalities and improving overall performance.",
+          "I worked with eCommerce platforms such as OpenCart and PrestaShop, developing and integrating custom plugins.",
+          "I developed WordPress projects for corporate websites and online stores, ensuring scalability and maintainability.",
+          "I implemented and consumed proprietary and third-party REST APIs, including integrations with OpenAI and other external services to extend functionality and automate processes.",
+          "I designed and implemented responsive interfaces adapted to different devices, increasing user satisfaction and reducing loading times by 40%."
+        ]
+      },
+      "freelance": {
+        "title": "Full Stack Freelance Developer",
+        "job": "Independent",
+        "date": "2025 — Present",
+        "contents": [
+          "I develop full-stack web applications, working on both the frontend and backend with modern technologies such as React, Next.js, Laravel, and Node.js.",
+          "I have built a personal portfolio and scalable projects that integrate external APIs and SQL/NoSQL databases, strengthening my skills in high-performance solutions."
+        ]
+      }
+    }
+  },
+
+  "Testimonial": {
+    "title": "Hear From My Clients",
+    "aria_label": "Testimonials",
+    "avatarAlt": "{name} avatar",
+    "items": {
+      "jack": {
+        "name": "Jack",
+        "username": "@jack",
+        "body": "I've never seen anything like this before. It's incredible. I love it."
+      },
+      "jill": {
+        "name": "Jill",
+        "username": "@jill",
+        "body": "I don't even know what to say. I'm speechless. It's amazing."
+      },
+      "john": {
+        "name": "John",
+        "username": "@john",
+        "body": "I have no words. This is incredible. I love it."
+      },
+      "alice": {
+        "name": "Alice",
+        "username": "@alice",
+        "body": "By far the best experience I've had. Totally recommended!"
+      },
+      "bob": {
+        "name": "Bob",
+        "username": "@bob",
+        "body": "Amazing work! The attention to detail is outstanding."
+      },
+      "charlie": {
+        "name": "Charlie",
+        "username": "@charlie",
+        "body": "It exceeded all my expectations. Absolutely impressive!"
+      },
+      "dave": {
+        "name": "Dave",
+        "username": "@dave",
+        "body": "Simply impressive. The best decision I've made in a long time."
+      },
+      "eve": {
+        "name": "Eve",
+        "username": "@eve",
+        "body": "I'm so glad I found this. It has been a real game changer for me."
+      }
+    }
+  },
+  "Contact": {
+    "aria_label": "Contact section",
+    "title": "Let's Talk",
+    "intro": "Whether you want to build a new site, improve your current platform, or bring a unique project to life, I'm here to help.",
+    "fields": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "John Doe"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "john@example.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Share your thoughts..."
+      }
+    },
+    "cta": {
+      "send": "Send",
+      "sending": "Sending..."
+    },
+    "alerts": {
+      "success": "Your message has been sent!",
+      "genericError": "Something went wrong. Please try again later."
+    },
+    "errors": {
+      "notConfigured": "Email service not configured. Please set NEXT_PUBLIC_EMAILJS_* env vars."
+    }
+  },
+  "Footer": {
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "copyright": "© {year} {brand}. All rights reserved."
+  }
+}
