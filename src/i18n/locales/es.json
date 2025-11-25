@@ -16,13 +16,13 @@
     "lang_en": "EN"
   },
   "HeroText": {
-    "title": "Hola, Soy Dark",
-    "headingTop": "Un Desarrollador",
-    "headingBottom1": "Full-Stack Creando",
-    "headingTopMobile": "Construyendo",
-    "headingBottomMobile": "Aplicaciones Web",
+    "title": "Hola Mundo, Soy Triana",
+    "headingTop": "Ingeniero en",
+    "headingBottom1": "Sistemas y Desarrollador Web",
+    "headingTopMobile": "Ingeniero en",
+    "headingBottomMobile": "Sistemas y Desarrollador Web",
     "words": ["Seguras", "Modernas", "Escalables"],
-    "headingBottom2": "Aplicaciones Web",
+    "headingBottom2": "",
     "pitch": "Me gusta convertir ideas en productos digitales que marquen la diferencia. Uniendo tecnología y diseño, creo experiencias web que inspiran confianza y generan impacto.",
     "download": "Descargar CV",
     "ariaDownload": "Descargar currículum en PDF"
@@ -35,7 +35,7 @@
   },
   "About": {
     "title": "Sobre mí",
-    "grid1_head": "Hola, Soy Dark",
+    "grid1_head": "Hola Mundo, Soy Triana",
     "grid1_sub": "Durante los últimos 3 años he perfeccionado mis habilidades en frontend y backend para crear aplicaciones web dinámicas y funcionales.",
     "grid2_main": "EL CÓDIGO ES ARTE",
     "grid2_cards": {
