@@ -1,18 +1,16 @@
 import { useTranslation } from "react-i18next";
 import { Timeline, type Experience } from "@/components/Timeline";
-import { experienceKeys } from "@/constants";
+import BackendCard from "@/components/BackendCard";
+import FrontendCard from "@/components/FrontendCard";
+import CssCard from "@/components/CssCard";
+import DatabaseCard from "@/components/DatabaseCard";
+import DevOpsCard from "@/components/DevOpsCard";
+import MobileCard from "@/components/MobileCard";
 
 export default function Experiences() {
   const { t } = useTranslation();
 
-  const experiences: Experience[] = experienceKeys.map((key) => ({
-    title: t(`Experiences.items.${key}.title`),
-    job: t(`Experiences.items.${key}.job`),
-    date: t(`Experiences.items.${key}.date`),
-    contents: t(`Experiences.items.${key}.contents`, {
-      returnObjects: true,
-    }) as string[],
-  }));
+  const experiences: Experience[] = [];
 
   return (
     <section
@@ -21,6 +19,14 @@ export default function Experiences() {
       aria-label={t("Experiences.aria_label")}
     >
       <h2 className="text-heading">{t("Experiences.title")}</h2>
+      <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <BackendCard />
+        <FrontendCard />
+        <CssCard />
+        <DatabaseCard />
+        <DevOpsCard />
+        <MobileCard />
+      </div>
       <Timeline data={experiences} />
     </section>
   );

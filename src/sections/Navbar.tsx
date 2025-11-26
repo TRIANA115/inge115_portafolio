@@ -32,9 +32,9 @@ export default function Navbar() {
   return (
     <motion.div
       className="fixed left-0 right-0 z-20"
-      initial={{ y: -100, opacity: 0 }}
+      initial={{ scale: 0.8, opacity: 0 }}
       animate={{
-        y: 0,
+        scale: 1,
         opacity: 1,
         top: isMobile ? 0 : scrolled ? 0 : 16,
       }}
