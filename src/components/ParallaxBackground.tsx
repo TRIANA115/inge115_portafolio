@@ -29,16 +29,23 @@ export default function ParallaxBackground() {
 
         {/* Mountain Layer 3 */}
         <motion.div
+          initial={{ y: 300, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.2 }}
           className="absolute inset-0 -z-40"
-          style={
-            {
-              backgroundImage: "url(/assets/mountain-3.webp)",
-              backgroundPosition: "bottom",
-              backgroundSize: "cover",
-              y: mountain3Y,
-            } as MotionStyle
-          }
-        />
+        >
+          <motion.div
+            className="absolute inset-0"
+            style={
+              {
+                backgroundImage: "url(/assets/mountain-3.webp)",
+                backgroundPosition: "bottom",
+                backgroundSize: "cover",
+                y: mountain3Y,
+              } as MotionStyle
+            }
+          />
+        </motion.div>
 
         {/* Planets */}
         <motion.div
@@ -55,29 +62,43 @@ export default function ParallaxBackground() {
 
         {/* Mountain Layer 2 */}
         <motion.div
+          initial={{ y: 200, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.4 }}
           className="absolute inset-0 -z-20"
-          style={
-            {
-              backgroundImage: "url(/assets/mountain-2.webp)",
-              backgroundPosition: "bottom",
-              backgroundSize: "cover",
-              y: mountain2Y,
-            } as MotionStyle
-          }
-        />
+        >
+          <motion.div
+            className="absolute inset-0"
+            style={
+              {
+                backgroundImage: "url(/assets/mountain-2.webp)",
+                backgroundPosition: "bottom",
+                backgroundSize: "cover",
+                y: mountain2Y,
+              } as MotionStyle
+            }
+          />
+        </motion.div>
 
         {/* Mountain Layer 1 */}
         <motion.div
+          initial={{ y: 100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.6 }}
           className="absolute inset-0 -z-10"
-          style={
-            {
-              backgroundImage: "url(/assets/mountain-1.webp)",
-              backgroundPosition: "bottom",
-              backgroundSize: "cover",
-              y: mountain1Y,
-            } as MotionStyle
-          }
-        />
+        >
+          <motion.div
+            className="absolute inset-0"
+            style={
+              {
+                backgroundImage: "url(/assets/mountain-1.webp)",
+                backgroundPosition: "bottom",
+                backgroundSize: "cover",
+                y: mountain1Y,
+              } as MotionStyle
+            }
+          />
+        </motion.div>
       </div>
     </section>
   );

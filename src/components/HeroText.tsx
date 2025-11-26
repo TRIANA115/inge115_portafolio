@@ -62,9 +62,23 @@ export default function HeroText() {
           </motion.p>
         </div>
 
-        <p className="max-w-[500px] text-xl my-9 text-white/80">{t("HeroText.pitch")}</p>
+        <motion.p
+          className="max-w-[500px] text-xl my-9 text-white/80"
+          variants={variants}
+          initial="hidden"
+          animate="visible"
+          transition={{ delay: 1.9 }}
+        >
+          {t("HeroText.pitch")}
+        </motion.p>
 
-        <div className="flex flex-col xl:flex-row items-center gap-8">
+        <motion.div
+          className="flex flex-col xl:flex-row items-center gap-8"
+          variants={variants}
+          initial="hidden"
+          animate="visible"
+          transition={{ delay: 2.1 }}
+        >
           <a
             href="/doc/cv.pdf"
             download
@@ -80,7 +94,7 @@ export default function HeroText() {
               iconStyles="w-9 h-9 border border-white rounded-full flex justify-center items-center text-white cursor-pointer hover:bg-white hover:text-primary transition-colors duration-300"
             />
           </div>
-        </div>
+        </motion.div>
       </div>
 
       {/* Mobile */}
