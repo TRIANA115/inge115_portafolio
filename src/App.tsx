@@ -4,7 +4,6 @@ import About from "@/sections/About";
 import Experiences from "@/sections/Experiences";
 import Testimonial from "@/sections/Testimonial";
 import Contact from "@/sections/Contact";
-import Footer from "@/sections/Footer";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <Experiences />
       <Testimonial />
       <Contact />
-      <Footer />
     </div>
   );
 }

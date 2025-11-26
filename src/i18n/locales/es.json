@@ -8,8 +8,8 @@
     "brand": "DarkCode",
     "home": "Inicio",
     "about": "Sobre mí",
-    "work": "Proyectos",
-    "experiences": "Experiencia",
+    "work": "",
+    "experiences": "Tecnologías",
     "contact": "Contacto",
     "toggleMenu": "Abrir/cerrar menú",
     "lang_es": "ES",
@@ -153,7 +153,7 @@
     "viewProject": "Ver proyecto"
   },
   "Experiences": {
-    "title": "Mi experiencia laboral",
+    "title": "Tecnologías y herramientas que domino",
     "aria_label": "Sección de experiencia laboral",
     "items": {
       "tsoluciona": {

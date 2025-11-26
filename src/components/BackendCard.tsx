@@ -21,7 +21,7 @@ export default function BackendCard() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
-      className="w-full p-6 rounded-2xl bg-gradient-to-br from-neutral-900/50 to-neutral-800/50 backdrop-blur-sm border border-white/10"
+      className="w-full p-6 rounded-2xl bg-gradient-to-br from-neutral-900/50 to-neutral-800/50 backdrop-blur-sm border border-white/10 hover:border-purple-500/50 hover:bg-neutral-800/60 hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300 cursor-pointer"
     >
       <div className="flex items-center gap-3 mb-6">
         <div className="p-2 rounded-lg bg-purple-500/20">

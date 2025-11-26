@@ -63,12 +63,12 @@ export default function Navbar() {
               <a href="#home" className="flex items-center gap-2 text-white">
                 <img
                   src="/assets/logos/darkcode.png"
-                  alt="DarkCode logo"
+                  alt="triana_technology logo"
                   width={32}
                   height={32}
                   className="h-7 w-7"
                 />
-                <span className="text-xl font-bold">DarkCode</span>
+                <span className="text-xl font-bold">triana_technology</span>
               </a>
             </div>
 
