@@ -20,7 +20,7 @@ export default function Alert({ type, text }: Props) {
         animate="visible"
         exit="exit"
         variants={alertVariants}
-        transition={{ duration: 0.3, easeInOut }}
+        transition={{ duration: 0.3, ease: "easeInOut" }}
         role="status"
         aria-live="polite"
       >
