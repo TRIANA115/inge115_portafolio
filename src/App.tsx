@@ -7,6 +7,7 @@ import Contact from "@/sections/Contact";
 
 function App() {
   return (
+    
     <div className="container mx-auto max-w-7xl">
       <Navbar />
       <Hero />
