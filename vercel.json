@@ -3,6 +3,9 @@
   "devCommand": "pnpm run dev",
   "installCommand": "pnpm install",
   "framework": "vite",
+  "env": {
+    "ENABLE_EXPERIMENTAL_COREPACK": "1"
+  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
