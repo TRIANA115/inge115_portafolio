@@ -13,7 +13,7 @@ export default function DatabaseCard() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.6 }}
-      className="w-full p-6 rounded-2xl bg-gradient-to-br from-neutral-900/50 to-neutral-800/50 backdrop-blur-sm border border-white/10 hover:border-green-500/50 hover:bg-neutral-800/60 hover:shadow-lg hover:shadow-green-500/20 transition-all duration-300 cursor-pointer"
+      className="w-full p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl hover:-translate-y-1 duration-200 cursor-pointer"
     >
       <div className="flex items-center gap-3 mb-6">
         <div className="p-2 rounded-lg bg-green-500/20">
