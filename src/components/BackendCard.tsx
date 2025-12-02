@@ -30,7 +30,7 @@ export default function BackendCard() {
       }}
     >
       {/* Overlay oscuro */}
-      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm rounded-2xl" />
+      <div className="absolute inset-0 bg-black/30 rounded-2xl" />
       
       {/* Contenido */}
       <div className="relative z-10">
