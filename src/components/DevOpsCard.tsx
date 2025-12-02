@@ -16,7 +16,7 @@ export default function DevOpsCard() {
       transition={{ duration: 0.5, delay: 0.8 }}
       className="w-full p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl hover:-translate-y-1 duration-200 cursor-pointer relative overflow-hidden"
       style={{
-        backgroundImage: "url('/assets/1_6X5M-VHXjmy3-RD2uU9aEA.png')",
+        backgroundImage: "url('/img/image.gif')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundBlendMode: "overlay",
