@@ -14,10 +14,21 @@ export default function DevOpsCard() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.8 }}
-      className="w-full p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl hover:-translate-y-1 duration-200 cursor-pointer"
+      className="w-full p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl hover:-translate-y-1 duration-200 cursor-pointer relative overflow-hidden"
+      style={{
+        backgroundImage: "url('/assets/1_6X5M-VHXjmy3-RD2uU9aEA.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundBlendMode: "overlay",
+      }}
     >
-      <div className="flex items-center gap-3 mb-6">
-        <div className="p-2 rounded-lg bg-orange-500/20">
+      {/* Overlay oscuro */}
+      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm rounded-2xl" />
+      
+      {/* Contenido */}
+      <div className="relative z-10">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="p-2 rounded-lg bg-orange-500/20">
           <svg
             className="w-6 h-6 text-orange-400"
             fill="none"
@@ -35,30 +46,31 @@ export default function DevOpsCard() {
         <h3 className="text-2xl font-bold text-white">DevOps</h3>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-        {devopsTechs.map((tech, index) => (
-          <motion.div
-            key={tech.name}
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.3, delay: index * 0.05 }}
-            whileHover={{ scale: 1.05 }}
-            className="flex items-center gap-3 p-3 rounded-lg bg-black/30 border border-white/5 hover:border-orange-500/30 transition-all duration-300"
-          >
-            <img
-              src={tech.icon}
-              alt={`${tech.name} logo`}
-              className="w-8 h-8"
-              onError={(e) => {
-                e.currentTarget.style.display = "none";
-              }}
-            />
-            <span className="text-sm font-medium text-neutral-300">
-              {tech.name}
-            </span>
-          </motion.div>
-        ))}
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {devopsTechs.map((tech, index) => (
+            <motion.div
+              key={tech.name}
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: index * 0.05 }}
+              whileHover={{ scale: 1.05 }}
+              className="flex items-center gap-3 p-3 rounded-lg bg-black/30 border border-white/5 hover:border-orange-500/30 transition-all duration-300"
+            >
+              <img
+                src={tech.icon}
+                alt={`${tech.name} logo`}
+                className="w-8 h-8"
+                onError={(e) => {
+                  e.currentTarget.style.display = "none";
+                }}
+              />
+              <span className="text-sm font-medium text-neutral-300">
+                {tech.name}
+              </span>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </motion.div>
   );
