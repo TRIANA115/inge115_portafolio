@@ -20,7 +20,7 @@ export default function FrontendCard() {
       transition={{ duration: 0.5, delay: 0.2 }}
       className="w-full p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl hover:-translate-y-1 duration-200 cursor-pointer relative overflow-hidden"
       style={{
-        backgroundImage: "url('/assets/1_6X5M-VHXjmy3-RD2uU9aEA.png')",
+        backgroundImage: "url('/img/230603133-52eedb90-6313-41ef-86a6-122ec3848e19.gif')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundBlendMode: "overlay",
