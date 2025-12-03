@@ -23,7 +23,7 @@ export default function BackendCard() {
       transition={{ duration: 0.5 }}
       className="w-full p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl hover:-translate-y-1 duration-200 cursor-pointer relative overflow-hidden"
       style={{
-        backgroundImage: "url('/img/Coding Work From Home GIF by Domme Space.gif')",
+        backgroundImage: "url('/img/8d8c83e6fd50045287375032a8797318.gif')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundBlendMode: "overlay",
